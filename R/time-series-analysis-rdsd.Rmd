@@ -1,0 +1,19 @@
+---
+title: "Time series analysis of RDSD CORS station"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Packages
+```{r}
+library(tidyverse)
+library(mgcv)
+library(forecast)
+library(zoo)
+library(lubridate)
+library(xts)
+```
+
